@@ -22,11 +22,7 @@ const App = () => {
   const screenL = () => {
     return (
       <View style={styles.container}>
-        <Text style={styles.title}>Nombre: {prod.name}</Text>
-        <Text style={styles.price}>Altura: {prod.height}</Text>
-        <Text style={styles.price}>Peso: {prod.weight}</Text>
-        <Text style={styles.price}>Tipo: {prod.types.map(type => type.type.name).join(', ')}</Text>
-        <Image source={{ uri: prod.sprites.front_default }} style={styles.image} />
+        
       </View>
     );
   };
